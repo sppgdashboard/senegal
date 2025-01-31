@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import nigeriaFlag from "@public/pics/nigeria_flag.png";
+import senegalFlag from "@public/pics/flag-of-senegal.webp";
 import { useContextDashboard } from "@src/context/DashboardContext";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
@@ -19,7 +19,7 @@ export default function Header() {
       </button>
       <Image
         priority
-        src={nigeriaFlag}
+        src={senegalFlag}
         alt="Nigeria"
         width={50}
         className="scale-50"
